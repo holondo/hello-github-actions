@@ -1,0 +1,17 @@
+name: "Hello Actions"
+description: "Greet someone"
+author: "holondo@github.com"
+
+inputs:
+  MY_NAME:
+    description: "Quem é ela???"
+    required: true
+    default: ", see u l8r sk8r"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
